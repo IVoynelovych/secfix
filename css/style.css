@@ -1,0 +1,1025 @@
+/* reset */
+
+:root{ 
+  --acsent:#8D86C9; 
+} 
+html{
+  box-sizing: border-box;
+}
+html::after,::before{
+  box-sizing:border-box ;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* style */
+
+body {
+  background-color: #232323;
+
+}
+/* main html */
+.mainlogo{
+  display: block;
+  width: 153px;
+  height: 46px;
+  fill: #ffffff;
+  
+}
+header {
+  border-bottom: 1px solid #ffffff;
+  padding: 30px 0;
+  position:absolute;
+  width: 100%;
+  background: none;
+
+
+}
+
+/* container */
+
+.container {
+ max-width: 1296px;
+  margin: 0 auto;
+
+}
+.newblock .container{
+  width: 1296px;
+  margin: 0 auto;
+}
+
+header .container{
+  display: flex;
+align-items: center;
+
+
+
+position: relative;
+}
+/* nav-menu */
+
+.nav-menu {
+  margin-left:124px;
+  display: flex;
+  color: #ffffff;
+  gap: 40px;
+}
+.nav-menu-item{
+  font-weight: 500;
+font-size: 14px;
+line-height: 1.4;
+  font-family: 'Gilroy';
+  position: relative;
+}
+
+/* block html */
+.boxs {
+  max-width: 1040px;
+  border: 1px solid #ffffff;
+}
+
+.show {
+  display: inline-block;
+  padding: 12px 28px;
+
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  border: 1px solid #ffffff;
+}
+.show:focus {
+  border: 10px solid aqua;
+  outline: 1px solid coral;
+}
+.nav-menu-item .link{
+  color: #ffffff;
+
+
+
+}
+
+
+.fotos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+}
+.fotone{
+  padding: 25px 20px;
+  border:1px solid#F7ECE1 ;
+  
+  position: relative;
+}
+.fotsec{
+  padding: 25px 20px;
+  border:1px solid#F7ECE1 ;
+  position: relative;
+}
+.fotthird{
+  padding: 25px 20px;
+  border:1px solid#F7ECE1 ;
+  position: relative;
+}
+.fototxt{
+  font-family: 'Gilroy';
+  color: #ffffff;
+  position:absolute ;
+  text-align: center;
+  width: 243px;
+height: 76px;
+  bottom: 64px;
+  line-height: 1.4;
+  font-weight: 700;
+  font-size: 27px;
+  left: 87px;
+}
+.fototxtt{
+  font-family: 'Gilroy';
+  color: #ffffff;
+  position:absolute ;
+  text-align: center;
+  width: 307px;
+height: 76px;
+  bottom: 64px;
+  line-height: 1.4;
+  font-weight: 700;
+  font-size: 27px;
+  left: 55px;
+}
+.pic{
+  padding: 150px 0;
+}
+.btn{
+  color: #ffffff;
+  display: block;
+  background-color: #8D86C9;
+  width: 100%;
+  padding: 15px 31px;
+  border: none;
+  text-align: left;
+
+}
+.pric{
+  font-weight: 600;
+font-size: 21px;
+line-height: 1.4;
+  font-family: 'Gilroy';
+  width: 526px;
+  position: relative;
+}
+.pr{
+  font-weight: 700;
+font-size: 36px;
+  font-family: 'Gilroy';
+}
+.pri{
+  margin: 75px 0;
+}
+.hsign{
+  display: block;
+  width: 18px;
+  height: 20px;
+  fill: #ffffff;
+  position: absolute;
+  top: 17px;
+  right: 21px;
+}
+
+.try{
+  max-width: 526px;
+}
+/* 
+.pric:not(:last-child){
+  margin-bottom: 31px;
+} */
+.pric + .pric{
+  margin-top: 31px;
+}
+.price{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 134px;
+  background-color: #ffffff;
+  margin-top: 150px;
+  margin-bottom: 151px;
+}
+.nn{
+
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 140%;
+/* or 50px */
+
+
+/* text */
+
+color: #333333;
+}
+.txtt{
+  font-weight: 700;
+font-size: 36px;
+  font-family: 'Gilroy';
+}
+.cafe{
+  margin: 60px 0 ;
+  padding:25px;
+  border: 1px solid #F7ECE1;
+  position: relative;
+}
+footer{
+  background-color: #F7ECE1;
+}
+.lasttxt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:40px;
+  position: relative;
+}
+.pictu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:40px;
+
+}
+.pictore{
+
+  padding: 0 15px;
+  border: 1px solid #F7ECE1;
+}
+.names{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:25px;
+  font-family: 'Gilroy';
+  text-align: center;
+
+
+color: #333333
+}
+.pic{
+  display: block;
+  background-color: #ffffff;
+}
+.squad{
+  background-color: #ffffff;
+  position: relative;
+  width: 1296px;
+height: 523px;
+margin-left: auto;
+margin-right: auto;
+}
+.cap{
+  font-family: 'Gilroy';
+  width: 330px;
+height: 50px;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.4;
+margin-bottom: 75px;
+position: absolute;
+}
+.sgnleft{
+  display: block;
+  width: 17px;
+  height: 15px;
+  fill: #ffffff;
+  margin: 15px 14px 15px 14px;
+}
+.iconend{
+  display: flex;
+  margin-left: 107px;
+  gap: 15px;
+}
+.sgnright{
+  display: block;
+  width: 17px;
+  height: 15px;
+  fill: #ffffff;
+  margin: 15px 14px 15px 14px;
+}
+.logobtn{
+  width: 153px;
+  height: 46px;
+}
+.team{
+  display: block;
+  text-align: center;
+
+}
+.svgicon{
+  display: flex;
+  gap: 15px;
+  margin-left: 85px;
+
+}
+.teamname{
+  width: 196px;
+  height: 58px;
+  text-align: center;
+
+}
+.teamtxt{
+  width: 196px;
+height: 40px;
+text-align: center;
+}
+.end .container{
+  display: flex;
+}
+.def{
+  font-family: 'Gilroy';
+  margin-right: 104px;
+  color: #333333;
+  opacity: 0.3;
+  font-weight: 500;
+font-size: 14px;
+line-height: 1.4;
+}
+.finishtxt{
+  font-family: 'Gilroy';
+  font-weight: 500;
+font-size: 14px;
+line-height: 1.4;
+}
+header{
+  background:url("./images/logo.jpg");
+}
+.higt{
+  font-family: 'Gilroy';
+  color: #F7ECE1;
+  background-color: #8D86C9;
+  height: 151px;
+  width: 315px ;
+  padding: 35px 0 40px 35px;
+  font-weight: 700;
+font-size: 24px;
+border: none;
+text-align: left;
+position: relative;
+
+}
+.svglink{
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  fill: #ffffff;
+  bottom: 54px;
+  left: 255px;
+  z-index: 2;
+
+}
+
+.highlst{
+  display: flex;
+  gap: 12px;
+  margin-top: 323px;
+
+  
+  
+
+}
+.higt span{
+  display: block;
+  margin-bottom:17px;
+  font-weight: 600;
+font-size: 18px;
+
+}
+
+.strt{
+  font-family: 'Gilroy';
+  color: #ffffff;
+  padding: 0;
+  font-size: 48px;
+line-height: 1.4;
+width: 636px;
+
+
+
+}
+.hero{
+  background: url(../images/logo.jpg);
+  margin-top: 0;
+  padding-top:200px;
+  background-repeat: no-repeat;
+
+}
+body{
+  background-color: #ffffff;
+}
+.news{
+  background:url(../images/cort.jpg);
+  height: 263px;
+  background-repeat: no-repeat;
+}
+.new{
+  font-family: 'Gilroy';
+  color: #ffffff;
+  text-align: center;
+  padding-top: 136px;
+font-size: 48px;
+font-weight: 700;
+line-height: 1.4;
+}
+.newsbtn{
+  font-family: 'Gilroy';
+  line-height: 1.4;
+  font-weight: 600;
+font-size: 18px;
+margin-top: 30px;
+  color: #ffffff;
+  background-color: #8D86C9;
+  border: none;
+  padding:10px 20px 10px;
+}
+.newblock{
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-top: 80px;
+  padding-bottom: 120px;
+  text-align: center;
+  width: 1344px;
+
+}
+.newsblock{
+  box-sizing: border-box;
+  border: 1px solid #F7ECE1;
+  width: 416px;
+  height: 512px;
+  text-align: left;
+  padding: 15px 40px;
+  margin: 0;
+}
+
+.newstxt{
+  display:block;
+  width: 336px;
+  height: 87px;
+}
+.lastidia{
+  font-family: 'Gilroy';
+  width: 336px;
+  height: 87px;
+  margin-right: 0px;
+  margin-top: 15px;
+  font-weight: 600;
+font-size: 21px;
+line-height: 1.4;
+}
+.date{
+  font-family: 'Gilroy';
+  display: block;
+  opacity: 0.5;
+  font-weight: 400;
+font-size: 14px;
+line-height: 1.4;
+  width: 336px;
+height: 20px;
+margin: 0;
+margin-top: 25px;
+}
+
+.icon{
+  position: absolute;
+  top: 50%;
+  left: -5px;
+  width: 20px;
+  height: 20px;
+
+  opacity: 0;
+  background-color:#8D86C9;
+  transform: translate(0, -50%);
+  transition:transform 250ms, opacity 2;
+  
+
+}
+ .nav-menu-item:hover .icon{
+  transform: translate(-100%, -50%);
+  opacity: 1;
+} 
+.nav-menu:hover{
+  color: aqua;
+}
+.cafename{
+  font-family: 'Gilroy';
+  color: white;
+  position: absolute;
+  bottom: 60px;
+  left: 65px;
+
+}
+.allcafe{
+  box-sizing: border-box;
+  position: relative;
+    width: 636px;
+    height: 330px;
+    background: url(../images/cafe.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #F7ECE1;
+    background-size: 586px 270px;
+  
+ 
+}
+.cafebtn{
+  padding: 0;
+  background-color: #8D86C9;
+  width: 45px;
+  height: 45px;
+  border: none;
+  position: absolute;
+  top: 3px;
+  right: 0px;
+  cursor: pointer;
+
+}
+.cafebtnsec{
+  padding: 0;
+  background-color: #8D86C9;
+  width: 45px;
+  height: 45px;
+  border: none;
+  position: absolute;
+  top: 3px;
+  right: 60px;
+  cursor: pointer;
+  
+  
+}
+.cafetxt{
+  position: relative;
+  margin-bottom: 75px;
+}
+.cafen{
+  margin-bottom: 50px;
+  width: 636px;
+  height: 455px;
+}
+.squadteam{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  position: absolute;
+  bottom: 0;
+}
+.teamcard{
+  text-align: center;
+  width: 196px;
+}
+.teamnamed{
+  border: 1px solid #F7ECE1;
+  padding: 0 15px;
+  width: 166px;
+  height: 240px;
+  margin-bottom: 25px;
+}
+.squadnames{
+  width: 107px;
+  height: 58px;
+  font-family: 'Gilroy';
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 1.4;
+  margin-left: 37px;
+  margin-bottom: 15PX;
+}
+.squadnamesse{
+  width: 77px;
+  height: 58px;
+  font-family: 'Gilroy';
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 1.4;
+  margin-left: 67px;
+  margin-bottom: 15PX;
+}
+.discteam{
+  width: 196px;
+height: 40px;
+font-weight: 400;
+font-size: 14px;
+  font-family: 'Gilroy';
+}
+.game{
+  box-sizing: border-box;
+  background-color:#F7ECE1 ;
+  width: 636px;
+  height: 654px;
+  position:relative;
+  top: 0;
+  margin: 0 109px 0 auto;
+  text-align: left;
+  padding: 70px 60px 84px 146px;
+}
+.gamestxt{
+  font-family: 'Gilroy';
+  margin-bottom: 25px;
+}
+.games{
+  font-family: 'Gilroy';
+  margin-bottom: 35px;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.4;
+margin-left: auto;
+
+}
+
+.sporttxt{
+  font-family: 'Gilroy';
+  margin-bottom:25px; 
+}
+.texts{
+  font-family: 'Gilroy';
+font-weight: 400;
+font-size: 14px;
+line-height: 1.4;
+margin-top: 20px;
+position: relative;
+width: 400px;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.4;
+margin-left: auto;
+text-align: left;
+}
+.texts::before{
+  position: absolute;
+  content: "";
+  display: block;
+  height: 8px;
+  width: 8px;
+  background-color: #8D86C9;
+  margin-right: 10px;
+  top: 5px;
+  left: -23px;
+}
+.spot{
+  padding-bottom: 150px;
+  text-align: center;
+}
+.gamepic{
+  position: absolute;
+  top: 50%;
+  transform: translate(-100%,-50%);
+  left: 86px;
+}
+.newshead{
+  display: flex;
+  gap: 140px;
+}
+.svgyt{
+  display: block;
+  width: 36px;
+  height: 36px;
+  fill: white;
+  position: relative;
+}
+.svgvk{
+  display: block;
+  width: 36px;
+  height: 36px;
+  fill: white;
+  position: relative;
+
+}
+.svgytend{
+  display: block;
+  width: 36px;
+  height: 36px;
+  fill: #8D86C9;
+}
+.end{
+  display: flex;
+}
+.svgvkend{
+  display: block;
+  width: 36px;
+  height: 36px;
+  fill: #8D86C9;
+
+}
+.svgtgend{
+  display: block;
+  width: 36px;
+  height: 36px;
+  fill: #8D86C9;
+
+}
+
+
+  .svgtrigle{ 
+    width: 16px; 
+    height: 20px; 
+    position: absolute; 
+    top: 22px; 
+    left: 24px; 
+    right: 24px; 
+    bottom: 22px; 
+    fill: white;
+} 
+.svgvideo::before{ 
+    position: absolute; 
+    content: ''; 
+    left: -8px; 
+    right: -8px; 
+    top: -8px; 
+    bottom: -8px; 
+    border-radius: 50%; 
+    background-color: transparent; 
+    border: 1px solid white; 
+} 
+.svg-div{ 
+    position: relative; 
+    display: block; 
+    margin: 40px; 
+} 
+.svgvideo{ 
+    padding: 0; 
+    position: relative; 
+    background-color: var(--acsent); 
+    width: 64px; 
+    height: 64px; 
+    border-radius: 50%; 
+    border: transparent; 
+}
+.svgpart{
+  display: flex;
+  gap: 30px;
+  margin-top: 60px;
+}
+.svgtxt{
+  font-family: 'Gilroy';
+  color: #ffffff;
+  width: 158px;
+height: 50px;
+font-weight: 600;
+font-size: 18px;
+line-height: 1.4;
+}
+.about{
+  background: url(../images/aboutclub.jpg);
+  height: 263px;
+  background-repeat: no-repeat;
+
+}
+.clubnew{
+  position: relative;
+  width: 1290px;
+  height: 610px;
+  padding-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.corttxt{
+  font-family: 'Gilroy';
+  position: absolute;
+  color: #333333;
+  line-height: 1.4;
+  font-weight: 700;
+font-size: 36px;
+}
+.cortback{
+  background: url(../images/clubcort.jpg);
+  width: 1256px;
+  height: 450px;
+  position: relative;
+  border: 1px solid #F7ECE1;
+  padding: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+}
+.clubpic{
+  position: absolute;
+  left: 0;
+  bottom: 70px;
+  z-index: 2;
+}
+.clubtxt{
+  position: relative;
+  height: 85px;
+}
+.cortbtn{
+  font-family: 'Gilroy';
+  padding: 10px 20px;
+  position: absolute;
+  background-color: #8D86C9;
+  color: #ffffff;
+  border: none;
+  bottom: 65px;
+  left: 70px;
+  width: 145px;
+height: 45px;
+font-weight: 600;
+font-size: 18px;
+}
+.clubcap{
+  font-weight: 700;
+font-size: 36px;
+line-height: 1.4;
+  font-family: 'Gilroy';
+}
+.aboutclub{
+  margin-top: 150px;
+  width: 1296px;
+  height: 764px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about-club-text{
+  background-color: #F7ECE1;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 110;
+  width: 856px;
+height: 654px;
+}
+.clubname{
+  font-family: 'Gilroy';
+  width: 650px;
+height: 100px;
+text-align: left;
+line-height: 1.4;
+margin-left: 146px;
+margin-right: auto;
+margin-top: 70px;
+font-weight: 700;
+font-size: 36px;
+margin-bottom: 40px;
+}
+.clubfish{
+  font-family: 'Gilroy';
+  line-height: 1.4;
+  margin-bottom: 25px;
+  width: 650px;
+  margin-left: 146px;
+  margin-right: auto;
+  font-weight: 400;
+font-size: 14px;
+text-align: left;
+}
+.disctription{
+  font-family: 'Gilroy';
+  font-weight: 700;
+font-size: 14px;
+text-align: left;
+width: 124px;
+height: 40px;
+margin-left: 150px;
+position: relative;
+}
+.disctriptionsec{
+  font-family: 'Gilroy';
+  font-weight: 700;
+font-size: 14px;
+text-align: left;
+width: 182px;
+height: 40px;
+position: relative;
+}
+.disctriptionthird{
+  font-family: 'Gilroy';
+  font-weight: 700;
+font-size: 14px;
+text-align: left;
+width: 124px;
+height: 40px;
+position: relative;
+}
+.corts{
+  margin-left: 50px;
+  margin-top: 60.8px;
+  margin-right: auto;
+  text-align: center;
+  display: flex;
+  gap: 88px;
+}
+.disctription::before{
+  content: "";
+  display: block;
+  width: 30px;
+  height: 45px;
+  background: url(../images/seven.svg);
+  position: absolute;
+  left: -54px;
+  
+}
+.disctriptionsec::before{
+  content: "";
+  display: block;
+  width: 30px;
+  height: 45px;
+  background: url(../images/numfour.svg);
+  position: absolute;
+  left: -54px;
+}
+.disctriptionthird::before{
+  content: "";
+  display: block;
+  width: 30px;
+  height: 45px;
+  background: url(../images/numthree.svg);
+  position: absolute;
+  left: -54px;
+}
+.rule{
+  font-family: 'Gilroy';
+  margin-bottom: 40px;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 1.4;
+}
+.activerule{
+  font-family: 'Gilroy';
+  font-weight: 600;
+  font-size: 21px;
+  margin-bottom: 40px;
+  line-height: 1.4;
+  color: #8D86C9;
+  padding-left: 31px;
+}
+.rool{
+  position: absolute;
+  font-family: 'Gilroy';
+  margin-bottom: 40px;
+  font-weight: 700;
+font-size: 36px;
+  line-height: 1.4;
+  top: -120px;
+}
+.rulesec .container{
+  position: relative;
+  display: flex;
+  gap: 104px;
+}
+.rule-ditail{
+  font-weight: 400;
+font-size: 14px;
+font-family: 'Gilroy';
+line-height: 1.4;
+margin-top: 10px;
+position: relative;
+}
+.rule-ditail::before{
+  content: "";
+  display: block;
+  width: 15px;
+height: 3px;
+background-color: var(--acsent);
+position: absolute;
+transform: translate(-100%, 10%);
+top: 5px;
+left: -15px;
+}
+.rulnum{
+  font-family: 'Gilroy';
+line-height: 1.4;
+font-weight: 600;
+font-size: 18px;
+margin-bottom: 25px;
+}
+.reginfo{
+  font-family: 'Gilroy';
+line-height: 1.4;
+font-weight: 400;
+font-size: 14px;
+margin-top: 25px;
+width: 856px;
+height: 260px;
+}
+.rulesec{
+  padding-bottom: 120px;
+  margin-top: 257px;
+  display: flex;
+  gap: 104px;
+}
